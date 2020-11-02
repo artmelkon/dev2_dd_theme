@@ -1,0 +1,9 @@
+/*
+  Theme Name: Digital Decor
+  Author: Arthur Melkonyna
+*/
+
+/* disable excerpt on home and shop pages */
+.home .woocommerce-loop-product__title + p, .home .woocommerce-loop-product__link + a, .home .woocommerce-Price-amount {
+  display: none;
+}

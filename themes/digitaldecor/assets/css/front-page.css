@@ -1,0 +1,42 @@
+#home-section .slider {
+  overflow: hidden;
+}
+.company-description__title {
+  font-family: 'Monsterrat', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-stretch: condensed;
+}
+
+.products__title {
+  font-size: .8rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.products__btn--bgcolor {
+  background-color: rgba(0,0,0, 0.125)
+}
+.products__btn--bgcolor:hover {
+  background-color: rgba(0,0,0, 0.185)
+}
+.product {
+  padding: 5rem 0;
+}
+img.product__image {
+  margin: 0 auto;
+  max-width: 65%;
+  width: 55px;
+}
+.section__header {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  padding-bottom: 1.5em;
+}
+
+[id$='section'] h3 {
+  padding-top: 7%;
+}
+
+[id^='about'], [id^='application'], [id^='contact'] {
+  padding-bottom: 7%;
+}

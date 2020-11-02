@@ -1,0 +1,140 @@
+/******************************************************************************
+                        Patterns Page CSS
+******************************************************************************/
+.woocommerce .container__shop {
+	width: 90%;
+	outline: none;
+	margin: 0 auto;
+}
+.woocommerce .container__shop ul[class^="products columns"] {
+	display: flex;
+	flex-flow: row wrap;
+}
+.woocommerce ul[class^="products columns"] .shop-product__grid {
+	margin: 1% !important;
+}
+.woocommerce ul[class^="products columns"] .shop-product__grid .patterns-thumbnail-wrapper {
+	display: block;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+
+.TEXTURE_pattern_thmb{
+	z-index:0;
+	mix-blend-mode: normal;
+	position:absolute;
+	display:block;
+	background-size: 100%;/* 22px 22px; */
+	min-width: 100%;
+	min-height: 100%;
+}
+.MASK2_pattern_thmb{
+	z-index:1;
+	mix-blend-mode: normal;
+	position:absolute;
+	display:block;
+	background-size: 100%;/* 22px 22px; */
+	min-width: 100%;
+	min-height: 100%;  
+}
+.MASK3_pattern_thmb{
+	z-index:2;
+	mix-blend-mode: normal;
+	position:absolute;
+	display:block;
+	background-size: 100%;/* 22px 22px; */
+	min-width: 100%;
+	min-height: 100%;  
+}
+.CLASS2_pattern_thmb {
+	z-index:3;
+	mix-blend-mode: overlay;
+	position:absolute;
+	display:block;
+	background-size: 100%;/* 22px 22px; */
+	min-width: 100%;
+	min-height: 100%;  
+}
+.CLASS3_pattern_thmb {
+	z-index:4;
+	mix-blend-mode: overlay;
+	position:absolute;
+	display:block;
+	background-size: 100%;/* 22px 22px; */
+	min-width: 100%;
+	min-height: 100%;  
+}
+.CLASS4_pattern_thmb {
+	z-index:5;
+	mix-blend-mode: overlay;
+	position:absolute;
+	display:block;
+	background-size: 100%;/* 22px 22px; */
+	min-width: 100%;
+	min-height: 100%;  
+}
+.HL_pattern_thmb {
+	z-index:6;
+	mix-blend-mode: hard-light;
+	position:absolute;
+	display:block;
+	background-size: 100%;/* 22px 22px; */
+	min-width: 100%;
+	min-height: 100%;  
+}
+.AGING_pattern_thmb {
+	z-index: 7; 
+	mix-blend-mode: hard-light;
+	position:absolute;
+	display:block;
+	background-size: 100%;/* 22px 22px; */
+	min-width: 100%;
+	min-height: 100%;  
+}
+.threeDM_pattern_thmb{
+	z-index: 8; 
+	mix-blend-mode: hard-light;
+	position:absolute;
+	display:block;
+	background-size: 100%;/* 22px 22px; */
+	min-width: 100%;
+	min-height: 100%;  
+}
+.threeDS_pattern_thmb{
+	z-index: 9; 
+	mix-blend-mode: hard-light;
+	position:absolute;
+	display:block;
+	background-size: 100%;/* 22px 22px; */
+	min-width: 100%;
+	min-height: 100%;  
+}
+
+
+@media (min-width: 375px) and (max-width: 768.98px) {
+	.woocommerce ul[class^="products columns"] .shop-product__grid.product {
+		width: 100px !important;
+		height: 100px;
+		margin: 1% 1% 3% 1%!important;
+	}
+}
+@media (min-width: 769px) and (max-width: 1199.98px) {
+	.woocommerce ul[class^="products columns"] .shop-product__grid.product {
+		width: 150px !important;
+		height: 150px;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+@media screen and ( min-width: 1200px ) {
+	.woocommerce ul[class^="products columns"] .shop-product__grid.product {
+		width: 250px !important;
+		height: 250px;
+	}
+}
+
+/******************************************************************************
+                       END OF PATTERNS PAGE CSS
+******************************************************************************/
