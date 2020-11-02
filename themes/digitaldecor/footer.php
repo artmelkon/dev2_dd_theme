@@ -21,21 +21,21 @@
         </div>
         <!-- footer navbar ========================================== -->
         <div class="col-md-6 col-sm-6">
-          <div class="legal-content text-right">
+          <div class="legal-content text-center">
           <?php
             if( get_theme_mod( 'dd_footer_tos_page' ) ) :
           ?>
-            <div class="legal-content__tos-page">
+            <span class="legal-content__tos-page pr-3">
               <a href="<?php the_permalink( get_theme_mod( 'dd_footer_tos_page' ) ); ?>" class="legal-content__link legal-content__link--color">Terms & Conditions</a>
-            </div>
+            </span>
           <?php
             endif;
 
             if ( get_theme_mod( 'dd_footer_privacy_page' ) );
           ?>
-            <div class="legal-content__privacy-page">
+            <span class="legal-content__privacy-page pl-3">
               <a href="<?php the_permalink( get_theme_mod( 'dd_footer_privacy_page' ) ); ?>" class="legal-content__link legal-content__link--color">Privacy Policy</a>
-            </div>
+            </span>
           </div>
         </div>
         <!-- Footer Sidebar Container =============================== -->
