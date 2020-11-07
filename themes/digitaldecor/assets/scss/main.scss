@@ -1,12 +1,7 @@
-* {
-  padding: 0;
-  border: 0;
-}
+// imported files
+@import 'base/base';
 
-html, body {
-  width: 100%;
-}
- 
+
 img, section, header, main {
   display: block;
 }
