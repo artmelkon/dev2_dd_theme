@@ -1,4 +1,5 @@
 // imported files
+@import 'abstracts/variables';
 @import 'base/base';
 
 
@@ -14,11 +15,11 @@ h2 {
 }
 
 img.logo__image {
-  width: 165px;
+  width: 16.5rem;
 }
 
 a, a:visited, .fa {
-  color: rgba(0,0,0,0.5)
+  color: rgba($color-black,0.5)
 }
 .copyright {
   padding: 2% 0;
