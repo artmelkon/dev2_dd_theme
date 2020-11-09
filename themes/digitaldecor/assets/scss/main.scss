@@ -1,0 +1,136 @@
+
+// imported files
+@import 'main_css/variables';
+@import 'main_css/base';
+@import 'main_css/header';
+@import 'main_css/footer';
+
+
+img, section, header, main {
+  display: block;
+}
+h2 {
+  font-family: Montserrat, sans-serif, helvetica;
+}
+
+.header--white {
+  background-color: white;
+}
+
+img.logo__image {
+  width: 16.5rem;
+}
+
+a, a:visited, .fa {
+  color: rgba($color-black,0.5)
+}
+.copyright {
+  padding: 2% 0;
+}
+.copyright__text--sm {
+  font-size: .8rem;
+}
+
+a.legal-content__link {
+  font-size: .8rem;
+  text-transform: capitalize;
+}
+a.legal-content__link--color {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+a.legal-content__link--color:hover {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+
+/* Top Shopping Cart Icon
+=============================*/
+#shopping-cart {
+  display: inline-block;
+}
+#shopping-cart .shopping-cart__icon {
+  position:relative;
+  z-index: 2;
+}
+#shopping-cart .shopping-cart__badge {
+  position: relative;
+  top: -12px;
+  right: 12px;
+  padding: 2px 5px;
+  border: 1px solid rgba(0,0,0,0.5);
+  z-index: 3;
+}
+.cart-product__container {
+  display: flex;
+  flex-flow: row-nowrap;
+}
+.cart-product__container .cart-product__img img {
+  width: 50px;
+  height: 50px;
+  padding: inherit !important;
+}
+.cart-product__container .cart-product__img {
+  display: block;
+  padding: 0;
+}
+.cart-product__container .woocommerce-Price-amount {
+  color: #fff;
+}
+.cart-product__footer {
+  justify-content: inherit !important;
+}
+/* End of Top Shopping Cart
+============================= */
+/* Shop page product list
+============================= */
+
+.shop-products__column {
+  padding: 4px 0;
+}
+
+/* End Shop page product list
+============================= */
+
+/* Single Page CSS
+============================= */
+
+.single-post__image, .content-page__image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.single-post__title, .content-page__title {
+  width: 100%;
+  display: block;
+  padding: 4rem 0 1.5rem;
+  font-family:'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+/* End Single Page CSS
+=============================== */
+.content-page__title--bgcolor {
+  background-color: rgba(199, 198, 198, 0.397);
+}
+.woocommerce-products-header .woocommerce-products-header__title {
+  padding-top: 2% !important;
+  padding-left: 1%;;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap */
+   
+/*  Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/*  Small devices (landscape phones, 576px and up) */
+/* @media (max-width: 576px) {...} */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {...} */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {...} */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */

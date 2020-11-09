@@ -1,5 +1,11 @@
 .vscode/
-plugins/
+plugins/catch-infinite-scroll/
+plugins/custom-post-type-ui/
+plugins/show-current-template/
+plugins/simply-show-hooks/
+plugins/woocommerce/
+plugins/woocommerce-product-archive-customiser/
+plugins/wp-fastest-cache/
 upgrade/
 uploads/
 themes/twentyseventeen

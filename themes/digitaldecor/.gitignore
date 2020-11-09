@@ -3,3 +3,5 @@ front-page.php.hold
 experimental.php
 assets/images
 template-parts/content-pattern copy.php
+node_modules/
+.vscode/

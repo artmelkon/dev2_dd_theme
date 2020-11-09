@@ -10,7 +10,7 @@
 
 ?>
 <div class="flexslider slider">
-    <ul class="slides slider_list">
+  <ul class="slides slider_list">
     <?php
         for( $i = 1; $i < 4; $i++ ) :
           $slider_page[$i]          = get_theme_mod( 'set_slider_page' . $i );
@@ -36,7 +36,7 @@
 
         <div class="slider__caption">
           <h4 class="display-4 slider__title"><?php the_title(); ?></h4>
-          <p class="slider__copy"><?php the_content(); ?></p>
+         <?php the_content(); ?>
           <a href="<?php the_permalink(); ?>" class="btn btn-danger slider__btn--color rounded-pill">Click Me</a>
         </div>
       </li>
@@ -45,5 +45,5 @@
           wp_reset_postdata();
         endif;
     ?>
-    </ul>
-  </div>
+  </ul>
+</div>

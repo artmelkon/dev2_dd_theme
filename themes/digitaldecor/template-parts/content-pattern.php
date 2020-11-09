@@ -40,13 +40,13 @@
 <a class="patterns-thumbnail-wrapper img-responsive" href="<?php echo $permalink ?>">
 	<!-- <h6><?php echo $designname; ?></h6> -->
 	<div class="TEXTURE_pattern_thmb" style="background-image: url(&quot;&quot;)"></div>
-	<div class="MASK2_pattern_thmb" data-src="" style="background-image: url('<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname;?>/web/01/51/mask2.png');"></div>
-	<div class="MASK3_pattern_thmb" data-src="" style="background-image: url('<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname;?>/web/01/51/mask2.png');"></div>
-	<div class="CLASS2_pattern_thmb" data-src="" style="background-image: url('<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname;?>/web/01/51/class3.png');background-color: <?php echo $layer2; ?> ;  "></div>
-	<div class="CLASS3_pattern_thmb" style="background-image: url('<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname;?>/web/01/51/class3.png'); background-color: <?php echo $layer3; ?> ;  "></div>
-	<div class="CLASS4_pattern_thmb" style="background-image: url('<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname;?>/web/01/51/class4.png'); background-color: <?php echo $layer4; ?> ;"></div>
-	<div class="HL_pattern_thmb" data-src="<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname;?>/web/01/51/hl.jpg" style=""></div>
+	<div class="MASK2_pattern_thmb" data-src="" style="background-image: url(<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname;?>/web/01/51/mask2.png);"></div>
+	<div class="MASK3_pattern_thmb" data-src="" style="background-image: url(<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname;?>/web/01/51/mask2.png);"></div>
+	<div class="CLASS2_pattern_thmb" data-src="" style="background-image: url(<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname;?>/web/01/51/class2.png);background-color: <?php echo $layer2; ?> ;  "></div>
+	<div class="CLASS3_pattern_thmb" style="background-image: url(<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname;?>/web/01/51/class3.png); background-color: <?php echo $layer3; ?> ;  "></div>
+	<div class="CLASS4_pattern_thmb" style="background-image: url(<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname;?>/web/01/51/class4.png); background-color: <?php echo $layer4; ?> ;"></div>
+	<div class="HL_pattern_thmb" data-src="<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname;?>/web/01/51/hl.jpg" style="background-image: url(<?php echo site_url('wp-content/uploads/assets/patterns/') . $designname; ?>/web/01/51/hl.jpg)"></div>
 	<div class="AGING_pattern_thmb" style="background-image: url(&quot;&quot;)"></div>
-	<div class="threeDM_pattern_thmb" style="background-image: url('<?php echo site_url('wp-content/uploads/assets/patterns/').$designname; ?>/web/01/51/dddMedium.jpg'); opacity: 0;"></div>
-	<div class="threeDS_pattern_thmb" style="background-image: url('<?php echo site_url('wp-content/uploads/assets/patterns/').$designname; ?>/web/01/51/dddSharp.jpg'); opacity: 0;"></div>
+	<div class="threeDM_pattern_thmb" style="background-image: url(<?php echo site_url('wp-content/uploads/assets/patterns/').$designname; ?>/web/01/51/dddMedium.jpg); opacity: 0;"></div>
+	<div class="threeDS_pattern_thmb" style="background-image: url(<?php echo site_url('wp-content/uploads/assets/patterns/').$designname; ?>/web/01/51/dddSharp.jpg); opacity: 0;"></div>
 </a>
