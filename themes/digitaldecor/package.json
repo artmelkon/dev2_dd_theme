@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "sass assets/scss/main.scss  assets/css/main.css --watch"
+    "compile:sass": "sass --watch assets/scss/main.scss:assets/css/main.css assets/scss/front-page.scss:assets/css/front-page.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "live-server": "^1.2.1"
   }
 }

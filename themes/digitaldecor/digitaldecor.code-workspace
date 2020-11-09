@@ -13,6 +13,7 @@
 		"workbench.colorCustomizations": {
 			"tab.activeBackground": "#03665e",
 			"tab.activeBorder": "#ff0000"
-		}
+		},
+		"compile-hero.disable-compile-files-on-did-save-code": true
 	}
 }

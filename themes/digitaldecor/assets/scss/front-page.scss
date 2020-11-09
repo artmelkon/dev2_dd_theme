@@ -1,0 +1,61 @@
+@import 'frontpage_css/variables';
+body {
+  position: relative;
+}
+
+// Slider section
+#slideshow {
+
+  .flexslider {
+    .slider__item {
+      position: relative;
+    }
+  }
+
+  .slider__caption {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    z-index: 2;
+    color: $color-white;
+  
+    > p {
+      font-size: $font-lg;
+    }
+  }
+}
+
+.products__title {
+  font-size: 0.8rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.products__btn--bgcolor {
+  background-color: rgba($color-black, 0.125);
+
+  &:hover {
+    background-color: rgba($color-black, 0.185);
+  }
+}
+.product {
+  padding: 5rem 0;
+}
+img.product__image {
+  margin: 0 auto;
+  max-width: 65%;
+  width: 55px;
+}
+
+
+.fp-section {
+  padding-top: 60px;
+  padding-bottom: 2%;
+
+  .section__title {
+    font-weight: 600;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    padding-bottom: 1.5em;
+  }
+  
+}

@@ -1,42 +1,52 @@
-#home-section .slider {
-  overflow: hidden;
+body {
+  position: relative;
 }
-.company-description__title {
-  font-family: 'Monsterrat', Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  font-stretch: condensed;
+
+#slideshow .flexslider .slider__item {
+  position: relative;
+}
+#slideshow .slider__caption {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  z-index: 2;
+  color: #fff;
+}
+#slideshow .slider__caption > p {
+  font-size: 18px;
 }
 
 .products__title {
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: center;
   text-transform: capitalize;
 }
+
 .products__btn--bgcolor {
-  background-color: rgba(0,0,0, 0.125)
+  background-color: rgba(0, 0, 0, 0.125);
 }
 .products__btn--bgcolor:hover {
-  background-color: rgba(0,0,0, 0.185)
+  background-color: rgba(0, 0, 0, 0.185);
 }
+
 .product {
   padding: 5rem 0;
 }
+
 img.product__image {
   margin: 0 auto;
   max-width: 65%;
   width: 55px;
 }
-.section__header {
-  text-transform: capitalize;
+
+.fp-section {
+  padding-top: 60px;
+  padding-bottom: 2%;
+}
+.fp-section .section__title {
   font-weight: 600;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   padding-bottom: 1.5em;
 }
 
-[id$='section'] h3 {
-  padding-top: 7%;
-}
-
-[id^='about'], [id^='application'], [id^='contact'] {
-  padding-bottom: 7%;
-}
+/*# sourceMappingURL=front-page.css.map */
